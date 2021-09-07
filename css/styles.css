@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --outer-space-crayola: #31393cff;
+    --blue-crayola: #2176ffff;
+    --blue-jeans: #33a1fdff;
+    --sunglow: #fdca40ff;
+    --yellow-orange-color-wheel: #f79824ff;
+
+    --gradient-top: linear-gradient(0deg, #31393cff, #2176ffff, #33a1fdff, #fdca40ff, #f79824ff);
+    --gradient-right: linear-gradient(90deg, #31393cff, #2176ffff, #33a1fdff, #fdca40ff, #f79824ff);
+    --gradient-bottom: linear-gradient(180deg, #31393cff, #2176ffff, #33a1fdff, #fdca40ff, #f79824ff);
+    --gradient-left: linear-gradient(270deg, #31393cff, #2176ffff, #33a1fdff, #fdca40ff, #f79824ff);
+    --gradient-top-right: linear-gradient(45deg, #31393cff, #2176ffff, #33a1fdff, #fdca40ff, #f79824ff);
+    --gradient-bottom-right: linear-gradient(135deg, #31393cff, #2176ffff, #33a1fdff, #fdca40ff, #f79824ff);
+    --gradient-top-left: linear-gradient(225deg, #31393cff, #2176ffff, #33a1fdff, #fdca40ff, #f79824ff);
+    --gradient-bottom-left: linear-gradient(315deg, #31393cff, #2176ffff, #33a1fdff, #fdca40ff, #f79824ff);
+    --gradient-radial: radial-gradient(#31393cff, #2176ffff, #33a1fdff, #fdca40ff, #f79824ff);
+}
+
+/* Header Section  */
+
+header {
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+main {
+    background: var(--blue-jeans);
+    color: #fff;
+    padding: 2rem;
+}
+
+section {
+    background: rgb(236, 236, 236);
+    padding: 2rem;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card {
+    margin: .3rem;
+}
+
+footer {
+    background-color: var(--outer-space-crayola);
+    color: #fff;
+    padding: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
